@@ -1,0 +1,79 @@
+.navbar-brand h1{
+    position: absolute;
+    margin: -5px;
+    left: 3.5%; 
+    font-size: 1.5em;
+    color:#b96443 ;
+    text-shadow: 1px 1px 1px #eca68a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-brand h1:hover{
+    color:#A0BCC2;
+    text-shadow: 1px 1px 1px #9fbec6; 
+}
+#main-tile{
+    width: 95%;
+    margin-left: 2.5%;
+}
+#nav-list a{
+    text-align: center;
+    font-size: 20px;
+    color: #789c9c;
+    text-shadow: 1px 0.5px 0 #a3d4d4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav-list a:hover{
+    background: #dae5d0a6;
+    color:#415b5b ;
+}
+.navbar-header .button navbar-toggle{
+    clear: both;
+    margin-top: 20%;
+}
+button.navbar-toggle,.icon-bar{
+    border: 2px solid #A0BCC2 !important;  
+}
+button.navbar-toggle:hover {
+    border: 2px solid #718f8f !important;
+}
+#main-tile{
+    background-color: #9fc0889e;
+    box-shadow: 5px 5px 5px #aabb8b;
+    margin-bottom: 5%; 
+}
+#menu-title{
+   margin-bottom: 3%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-shadow: 1px 1px 1px #5c5c5c;
+}
+#header-nav{
+    background-color:#FEFBE7;
+    border-radius: 0;
+    border: 3px solid #F9EBC8;
+    box-shadow: 1px 1px 1px rgb(235, 211, 151);
+}
+h3{
+    padding: 0.5% 0;
+}
+#li1,#li2{
+    border: none;
+    border-bottom: 3px solid #F9EBC8; 
+}
+#collapsable-nav ul{
+    margin: 0;
+}
+  @media (max-width:767px){
+    .navbar-brand h1 {
+       margin: -1px;
+   }
+   #main-tile{
+       width: 80%;
+       margin-left: 10%;
+   }
+   #menu-title{
+       margin-bottom: 5%;
+    }
+    #collapsable-nav{
+        border-top: 3px solid #F9EBC8; 
+    }
+}
