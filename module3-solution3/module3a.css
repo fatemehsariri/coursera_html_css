@@ -63,10 +63,6 @@ h3{
     margin: 0;
     
 }
-#collapsable-nav{
-    background-color: #b96443;
-}
-
   @media (max-width:767px){
     .navbar-brand h1 {
        margin: -1px;
